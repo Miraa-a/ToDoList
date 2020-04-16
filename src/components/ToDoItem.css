@@ -1,0 +1,79 @@
+#todoList-form {
+    padding-top: 20px;
+    width: 50%;
+    margin: 30px auto;
+}
+
+#todoList-form input {
+    height: 30px;
+    width: 80%;;
+    padding-left: 10px;
+    background-color: #F2F3F8;
+    border: none;
+    position: fixed left;
+}
+
+#todoList-form button {
+    padding: 5px 40px;
+    
+    left: 190px;
+    border: none;
+    background-color: rgb(137, 139, 141);
+    color: #fefefe;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 15px;
+}
+
+.done input[type=text] {
+    color: #000000;
+    text-decoration: line-through;
+}
+
+
+.del-btn {
+    border: none;
+    background: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+
+li {
+    width: 80%;
+    background-color: rgb(149, 149, 150);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+}
+
+li input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    background: none;
+}
+
+li input[type="text"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 5px;;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    flex-grow: 2;
+}
+
+li input[type="text"]:focus {
+    
+    background-color: rgb(226, 227, 229);
+    color: rgb(29, 29, 29);
+}
+
+li button {
+    justify-content: flex-end;
+}
